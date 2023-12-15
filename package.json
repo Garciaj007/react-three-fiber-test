@@ -5,20 +5,34 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 4090",
+    "lint": "next lint",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "@react-three/drei": "^9.91.0",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/postprocessing": "^2.15.11",
+    "framer-motion-3d": "^10.16.16",
+    "maath": "^0.10.4",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "three": "^0.159.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@react-three/test-renderer": "^8.2.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.159.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "glsl-aastep": "^1.0.1",
+    "glslify-loader": "^2.0.0",
+    "prettier": "^3.1.1",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5"
   }
 }

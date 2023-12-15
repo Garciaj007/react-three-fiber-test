@@ -1,0 +1,8 @@
+#Ignore Shader Files
+**/*.glsl
+**/*.vert
+**/*.frag
+**/*.geom
+**/*.comp
+**/*.tesc
+**/*.tese
